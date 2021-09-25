@@ -18,11 +18,12 @@ import {
   View,
 } from 'react-native';
 import DonutChart from './src/DonutChart/index';
-
+import ProgressBar from './src/ProgressBar';
 const App = () => {
   return (
  
-      <DonutChart />
+      // <DonutChart />
+      <ProgressBar></ProgressBar>
    
   );
 };
