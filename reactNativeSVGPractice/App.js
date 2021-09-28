@@ -19,12 +19,13 @@ import {
 } from 'react-native';
 import DonutChart from './src/DonutChart/index';
 import ProgressBar from './src/ProgressBar';
+import LottieAnimation from './src/LoAnimate/LottieAnima';
 const App = () => {
   return (
  
       // <DonutChart />
-      <ProgressBar></ProgressBar>
-   
+      // <ProgressBar></ProgressBar>
+   <LottieAnimation></LottieAnimation>
   );
 };
 
